@@ -1,0 +1,11 @@
+# Ignore all images
+images/Original/
+images/Ground_Truth/
+
+# Ignore image files but keep log files and models
+images/Original/
+images/Ground_Truth/
+*.png
+*.jpg
+*.jpeg
+

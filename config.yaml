@@ -1,0 +1,14 @@
+# Image settings
+extn: .png
+
+# Training parameters
+epochs: 5
+batch_size: 16
+learning_rate: 0.001
+
+# File paths
+model_path: models/model.pth
+log_path: models/logs/logs.csv
+image_path: images/Original
+mask_path: images/Ground_Truth
+output_path: outputs/predictions
