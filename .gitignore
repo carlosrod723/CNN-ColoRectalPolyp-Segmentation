@@ -8,3 +8,6 @@ images/
 !models/
 !models/model.pth
 !models/logs/logs.csv
+
+# Ignore the virtual environment
+venv/
