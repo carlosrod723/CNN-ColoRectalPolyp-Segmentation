@@ -1,11 +1,10 @@
-# Ignore all images
-images/Original/
-images/Ground_Truth/
-
-# Ignore image files but keep log files and models
-images/Original/
-images/Ground_Truth/
+# Ignore all image files and directories
+images/
 *.png
 *.jpg
 *.jpeg
 
+# Keep log files and models
+!models/
+!models/model.pth
+!models/logs/logs.csv
