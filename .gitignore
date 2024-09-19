@@ -1,5 +1,6 @@
 # Ignore all image files and directories
-images/
+images/Original/
+images/Ground_Truth/
 *.png
 *.jpg
 *.jpeg
